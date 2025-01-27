@@ -63,7 +63,7 @@ This repository contains a robust **Database Migration Automation** system built
 
 ---
 
-![Placeholder for Comparison Table Screenshot]
+![Placeholder for Docker Diagram](Images/5.png)
 
 ## How It Works
 
