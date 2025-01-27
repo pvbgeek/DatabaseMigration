@@ -138,8 +138,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For any queries, feel free to reach out:
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/pvbgeek)
+- **Email**: pvbcod@gmail.com
+- **GitHub**: [PVBGEEK](https://github.com/pvbgeek)
 
 ---
 
