@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Database Migrator";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Database Migrator</h1>
+    <p class="lead">Migrate data between SQL Server and PostgreSQL</p>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Actions</h5>
+                    <a href="/migrate" class="btn btn-primary m-2">Start New Migration</a>
+                    <a href="/hangfire" class="btn btn-info m-2">View Jobs Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.ActiveJobs > 0)
+    {
+        <div class="alert alert-info mt-4">
+            <p>There are currently @Model.ActiveJobs active migration(s) running.</p>
+            <a href="/hangfire/jobs/processing" class="btn btn-sm btn-info">View Active Jobs</a>
+        </div>
+    }
+</div>

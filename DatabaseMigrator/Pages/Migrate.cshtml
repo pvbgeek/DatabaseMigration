@@ -1,0 +1,25 @@
+@page
+@model DatabaseMigrator.Pages.MigrateModel
+@{
+    ViewData["Title"] = "Database Migration";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Database Migration</h1>
+    
+    @if (TempData["JobId"] != null)
+    {
+        <div class="alert alert-success">
+            <p>Migration job has been queued.</p>
+            <p>Job ID: @TempData["JobId"]</p>
+            <a href="/hangfire/jobs/details/@TempData["JobId"]" class="btn btn-info">View Job Progress</a>
+        </div>
+    }
+
+    <div class="mt-4">
+        <form method="post">
+            <button type="submit" class="btn btn-primary">Start Migration</button>
+        </form>
+        <a href="/hangfire" class="btn btn-secondary mt-2">View All Jobs</a>
+    </div>
+</div>
