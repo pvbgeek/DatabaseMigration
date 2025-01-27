@@ -87,7 +87,8 @@ This repository contains a robust **Database Migration Automation** system built
 
 ---
 
-![Placeholder for Backup Process Diagram]
+![Placeholder Diagram](Images/1.png)
+![Placeholder Diagram](Images/4.png)
 
 ## Installation Guide
 
@@ -112,16 +113,12 @@ This repository contains a robust **Database Migration Automation** system built
 
 ---
 
-![Placeholder for Installation Process Screenshot]
-
 ## Monitoring and Logging
 
 - **Hangfire Dashboard**: Provides a visual representation of all tasks.
 - **Logs**: Captures detailed execution logs for debugging and auditing purposes.
 
 ---
-
-![Placeholder for Monitoring Screenshot]
 
 ## Contributing
 
@@ -142,7 +139,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For any queries, feel free to reach out:
 - **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **GitHub**: [yourusername](https://github.com/pvbgeek)
 
 ---
 
