@@ -47,7 +47,7 @@ This repository contains a robust **Database Migration Automation** system built
 
 ---
 
-![Placeholder for Architecture Diagram]
+![./Images/6.png]
 
 ## Advantages of PostgreSQL over SQL Server
 
