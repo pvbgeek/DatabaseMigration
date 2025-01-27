@@ -79,7 +79,7 @@ This repository contains a robust **Database Migration Automation** system built
 - Launch the migration via Hangfire.
 - Monitor progress through the dashboard.
 
-![Placeholder for Hangfire Screenshot]
+![Placeholder for Hangfire Screenshot](Images/2.png)
 
 ### Step 4: Automatic Backups
 - Use AWS EC2 for storing incremental backups.
